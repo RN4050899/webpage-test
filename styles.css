@@ -1,17 +1,17 @@
 
-
 body{
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(108, 90, 64);
+    background-color: rgb(176, 151, 115);
     color: rgb(243, 202, 114)
 }
 
+
 .top-portion{
     background: rgb(45, 43, 39);
-    padding: 0 100px;
+    padding: 0 75px;
 }
 
 .header{
@@ -32,13 +32,33 @@ body{
     color: rgb(243, 202, 114);
 }
 
+.logo{
+    font-weight:bold;
+}
+
 .main-block{
     padding: 50px 0;
     margin: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 }
 
-.text-container p{
+.main-block img{
+    width:300px;
+    height: auto;
+}
+
+.text-container p, .text-container a{
     font-size: small;
     color: rgb(193, 168, 115);
-    
+}
+
+.text-container a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(101, 88, 66);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
 }
