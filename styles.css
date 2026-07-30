@@ -9,7 +9,7 @@ body{
 }
 
 
-.top-portion{
+.top-portion, .footer{
     background: rgb(45, 43, 39);
     padding: 0 75px;
 }
@@ -62,20 +62,21 @@ body{
     cursor: pointer;
     border-radius: 25px;
 }
-.second-portion{
+.portion{
     text-align: center;
 }
 
 .title{
     font-size: 32px;
     font-weight: 800;
-    margin-bottom:30px ;
+    margin:30px;
 }
 
 .image-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;  
     padding: 0 75px;
 }
 
@@ -83,4 +84,36 @@ body{
     width:200px;
     height: auto;
     object-fit: cover;
+}
+
+.third{
+    background-color: rgb(119, 101, 82);
+    padding:75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signature{
+    align-self:flex-end;
+    font-weight: bold;
+}
+
+.fourth{
+    align-self: center;
+    padding: 50px;
+}
+.holding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: initial;
+    background-color: rgb(109, 90, 73);
+    padding: 30px;
+    border-radius: 5px;
+    gap:100px
+}
+
+.footer{
+    text-align: center;
+    padding: 30px;
 }
